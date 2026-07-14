@@ -1,11 +1,14 @@
+import "./page.css"
+
 export default function Home() {
   return (
-    <main>
+    <main className="app">
       <aside className="sidebar">Side bar</aside>
 
+
       <section className="weather-panel">
-        {/*Logo*/}
         <h1>Weatherly</h1>
+        
       </section>
 
       {/*Main content*/}
