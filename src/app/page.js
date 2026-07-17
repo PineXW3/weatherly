@@ -1,38 +1,16 @@
 import "./page.css"
+import Sidebar from "@/components/Sidebar"
+import WeatherPanel from "@/components/WeatherPanel"
+import ForecastArea from "@/components/ForecastArea"
 
 export default function Home() {
   return (
     <main className="app">
-      <aside className="sidebar">Side bar</aside>
+      <Sidebar />
 
-
-      <section className="weather-panel">
-        <h1>Weatherly</h1>
-        
-      </section>
-
-      {/*Main content*/}
-      <section className="forecast-area">
-        <header className="header">
-          <input className="search-bar"></input>
-
-          <div className="menu">Settings</div>
-        </header>
-
-        {/*Hero weather*/}
-        <div className="hero-weather">Hero</div>
-
-        <div className="hourly-forecast">Hourly forecast</div>
-
-        <section className="bottom-cards">
-          {/*Weekly forecast*/}
-          <div className="weekly-forecast">Weekly</div>
-
-          <div className="precipitation">Precipitation</div>
-          
-          <div className="sun-moon">Sun & Moon</div>
-        </section>
-      </section>
+      <WeatherPanel />
+      
+      <ForecastArea />
 
 
     </main>
