@@ -1,0 +1,45 @@
+.app {
+    display: grid;
+    grid-template-columns: 0.2fr 0.6fr 2.4fr;
+    min-height: 100vh;
+    gap: 12px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-button {
+    width: 50px;
+    height:50px;
+}
+
+.sidebar-icon {
+    width: 28px;
+    height: 28px;
+    
+}
+
+.weather-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.location {
+
+}
+
+.current-weather {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
